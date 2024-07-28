@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contato</title> 
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link para o CSS externo -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul> <!-- Links do portfólio -->
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="education.html">Educação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contato</h1> <!-- Cabeçalho principal -->
+        <!-- Formulário de contato -->
+        
+        <section>
+            <h2>Entrar em contato</h2>
+            <p>Email: <a href="mailto:marcos.barradas@outlook.com">marcos.barradas@outlook.com</a></p>
+            <p>Telefone: (11) 99955-2512</p>
+        </section>
+
+        <form> <!-- Estrutura do formulário -->
+            <h2>Deixar contato</h2>
+            <label for="name">Nome:</label> <!-- Rótulo para o nome -->
+            <input type="text" id="name" name="name" required> <!-- Campo de texto para o nome -->
+            <label for="email">Email:</label> <!-- Rótulo para o email -->
+            <input type="email" id="email" name="email" required> <!-- Campo de email -->
+            <label for="message">Mensagem:</label> <!-- Rótulo para a mensagem -->
+            <textarea id="message" name="message" required></textarea> <!-- Área de texto para a mensagem -->
+            <button type="submit">Enviar</button> <!-- Botão de envio -->
+        </form>
+    </main>
+</body>
+</html>
